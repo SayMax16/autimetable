@@ -1,0 +1,677 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		16163D3628361C5B00861A03 /* DailyViewChanger.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16163D3528361C5B00861A03 /* DailyViewChanger.swift */; };
+		16163D382836447500861A03 /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16163D372836447500861A03 /* SettingsViewController.swift */; };
+		16163D3A283C00D300861A03 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 16163D39283C00D300861A03 /* Assets.xcassets */; };
+		169AEAC62819865900DAD6B3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 169AEAC52819865900DAD6B3 /* AppDelegate.swift */; };
+		169AEAC82819865900DAD6B3 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 169AEAC72819865900DAD6B3 /* SceneDelegate.swift */; };
+		169AEACA2819865900DAD6B3 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 169AEAC92819865900DAD6B3 /* ViewController.swift */; };
+		169AEACD2819865900DAD6B3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 169AEACB2819865900DAD6B3 /* Main.storyboard */; };
+		169AEAD22819865A00DAD6B3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 169AEAD02819865A00DAD6B3 /* LaunchScreen.storyboard */; };
+		169AEADD2819865A00DAD6B3 /* AKFA_TimetableTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 169AEADC2819865A00DAD6B3 /* AKFA_TimetableTests.swift */; };
+		169AEAE72819865A00DAD6B3 /* AKFA_TimetableUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 169AEAE62819865A00DAD6B3 /* AKFA_TimetableUITests.swift */; };
+		169AEAE92819865A00DAD6B3 /* AKFA_TimetableUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 169AEAE82819865A00DAD6B3 /* AKFA_TimetableUITestsLaunchTests.swift */; };
+		169F91D82829580A00E813B0 /* FirstTabViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 169F91D72829580A00E813B0 /* FirstTabViewController.swift */; };
+		169F91DA28296F5400E813B0 /* SecondTabViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 169F91D928296F5400E813B0 /* SecondTabViewController.swift */; };
+		169F91DC28296F6100E813B0 /* ThirdTabViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 169F91DB28296F6100E813B0 /* ThirdTabViewController.swift */; };
+		169F91DF282A936100E813B0 /* ReminderViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 169F91DE282A936100E813B0 /* ReminderViewController.swift */; };
+		169F91E1282A936D00E813B0 /* AlarmViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 169F91E0282A936D00E813B0 /* AlarmViewController.swift */; };
+		169F91E3282A937B00E813B0 /* CalendarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 169F91E2282A937B00E813B0 /* CalendarViewController.swift */; };
+		169F91E5282BFC9D00E813B0 /* StudentsInformation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 169F91E4282BFC9D00E813B0 /* StudentsInformation.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		169AEAD92819865A00DAD6B3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 169AEABA2819865900DAD6B3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 169AEAC12819865900DAD6B3;
+			remoteInfo = "AKFA Timetable";
+		};
+		169AEAE32819865A00DAD6B3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 169AEABA2819865900DAD6B3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 169AEAC12819865900DAD6B3;
+			remoteInfo = "AKFA Timetable";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		16163D3528361C5B00861A03 /* DailyViewChanger.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DailyViewChanger.swift; sourceTree = "<group>"; };
+		16163D372836447500861A03 /* SettingsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
+		16163D39283C00D300861A03 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		169AEAC22819865900DAD6B3 /* AKFA Timetable.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "AKFA Timetable.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		169AEAC52819865900DAD6B3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		169AEAC72819865900DAD6B3 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		169AEAC92819865900DAD6B3 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		169AEACC2819865900DAD6B3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		169AEAD12819865A00DAD6B3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		169AEAD32819865A00DAD6B3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		169AEAD82819865A00DAD6B3 /* AKFA TimetableTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "AKFA TimetableTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		169AEADC2819865A00DAD6B3 /* AKFA_TimetableTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AKFA_TimetableTests.swift; sourceTree = "<group>"; };
+		169AEAE22819865A00DAD6B3 /* AKFA TimetableUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "AKFA TimetableUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		169AEAE62819865A00DAD6B3 /* AKFA_TimetableUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AKFA_TimetableUITests.swift; sourceTree = "<group>"; };
+		169AEAE82819865A00DAD6B3 /* AKFA_TimetableUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AKFA_TimetableUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		169F91D72829580A00E813B0 /* FirstTabViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstTabViewController.swift; sourceTree = "<group>"; };
+		169F91D928296F5400E813B0 /* SecondTabViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondTabViewController.swift; sourceTree = "<group>"; };
+		169F91DB28296F6100E813B0 /* ThirdTabViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThirdTabViewController.swift; sourceTree = "<group>"; };
+		169F91DE282A936100E813B0 /* ReminderViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReminderViewController.swift; sourceTree = "<group>"; };
+		169F91E0282A936D00E813B0 /* AlarmViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlarmViewController.swift; sourceTree = "<group>"; };
+		169F91E2282A937B00E813B0 /* CalendarViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalendarViewController.swift; sourceTree = "<group>"; };
+		169F91E4282BFC9D00E813B0 /* StudentsInformation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StudentsInformation.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		169AEABF2819865900DAD6B3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		169AEAD52819865A00DAD6B3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		169AEADF2819865A00DAD6B3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1649B9FA28216B74000F7A2E /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				169AEAC92819865900DAD6B3 /* ViewController.swift */,
+				169F91D72829580A00E813B0 /* FirstTabViewController.swift */,
+				169F91D928296F5400E813B0 /* SecondTabViewController.swift */,
+				169F91DB28296F6100E813B0 /* ThirdTabViewController.swift */,
+				16163D372836447500861A03 /* SettingsViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		1649B9FD282697CB000F7A2E /* View */ = {
+			isa = PBXGroup;
+			children = (
+				169AEACB2819865900DAD6B3 /* Main.storyboard */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		16650B422826B59800BE3AFE /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				169F91E4282BFC9D00E813B0 /* StudentsInformation.swift */,
+				16163D3528361C5B00861A03 /* DailyViewChanger.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		169AEAB92819865900DAD6B3 = {
+			isa = PBXGroup;
+			children = (
+				169AEAC42819865900DAD6B3 /* AKFA Timetable */,
+				169AEADB2819865A00DAD6B3 /* AKFA TimetableTests */,
+				169AEAE52819865A00DAD6B3 /* AKFA TimetableUITests */,
+				169AEAC32819865900DAD6B3 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		169AEAC32819865900DAD6B3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				169AEAC22819865900DAD6B3 /* AKFA Timetable.app */,
+				169AEAD82819865A00DAD6B3 /* AKFA TimetableTests.xctest */,
+				169AEAE22819865A00DAD6B3 /* AKFA TimetableUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		169AEAC42819865900DAD6B3 /* AKFA Timetable */ = {
+			isa = PBXGroup;
+			children = (
+				169F91DD282A934400E813B0 /* Settings Controllers */,
+				16650B422826B59800BE3AFE /* Model */,
+				1649B9FD282697CB000F7A2E /* View */,
+				1649B9FA28216B74000F7A2E /* Controller */,
+				169AEAC52819865900DAD6B3 /* AppDelegate.swift */,
+				169AEAC72819865900DAD6B3 /* SceneDelegate.swift */,
+				169AEAD02819865A00DAD6B3 /* LaunchScreen.storyboard */,
+				16163D39283C00D300861A03 /* Assets.xcassets */,
+				169AEAD32819865A00DAD6B3 /* Info.plist */,
+			);
+			path = "AKFA Timetable";
+			sourceTree = "<group>";
+		};
+		169AEADB2819865A00DAD6B3 /* AKFA TimetableTests */ = {
+			isa = PBXGroup;
+			children = (
+				169AEADC2819865A00DAD6B3 /* AKFA_TimetableTests.swift */,
+			);
+			path = "AKFA TimetableTests";
+			sourceTree = "<group>";
+		};
+		169AEAE52819865A00DAD6B3 /* AKFA TimetableUITests */ = {
+			isa = PBXGroup;
+			children = (
+				169AEAE62819865A00DAD6B3 /* AKFA_TimetableUITests.swift */,
+				169AEAE82819865A00DAD6B3 /* AKFA_TimetableUITestsLaunchTests.swift */,
+			);
+			path = "AKFA TimetableUITests";
+			sourceTree = "<group>";
+		};
+		169F91DD282A934400E813B0 /* Settings Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				169F91DE282A936100E813B0 /* ReminderViewController.swift */,
+				169F91E0282A936D00E813B0 /* AlarmViewController.swift */,
+				169F91E2282A937B00E813B0 /* CalendarViewController.swift */,
+			);
+			path = "Settings Controllers";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		169AEAC12819865900DAD6B3 /* AKFA Timetable */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 169AEAEC2819865A00DAD6B3 /* Build configuration list for PBXNativeTarget "AKFA Timetable" */;
+			buildPhases = (
+				169AEABE2819865900DAD6B3 /* Sources */,
+				169AEABF2819865900DAD6B3 /* Frameworks */,
+				169AEAC02819865900DAD6B3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "AKFA Timetable";
+			productName = "AKFA Timetable";
+			productReference = 169AEAC22819865900DAD6B3 /* AKFA Timetable.app */;
+			productType = "com.apple.product-type.application";
+		};
+		169AEAD72819865A00DAD6B3 /* AKFA TimetableTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 169AEAEF2819865A00DAD6B3 /* Build configuration list for PBXNativeTarget "AKFA TimetableTests" */;
+			buildPhases = (
+				169AEAD42819865A00DAD6B3 /* Sources */,
+				169AEAD52819865A00DAD6B3 /* Frameworks */,
+				169AEAD62819865A00DAD6B3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				169AEADA2819865A00DAD6B3 /* PBXTargetDependency */,
+			);
+			name = "AKFA TimetableTests";
+			productName = "AKFA TimetableTests";
+			productReference = 169AEAD82819865A00DAD6B3 /* AKFA TimetableTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		169AEAE12819865A00DAD6B3 /* AKFA TimetableUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 169AEAF22819865A00DAD6B3 /* Build configuration list for PBXNativeTarget "AKFA TimetableUITests" */;
+			buildPhases = (
+				169AEADE2819865A00DAD6B3 /* Sources */,
+				169AEADF2819865A00DAD6B3 /* Frameworks */,
+				169AEAE02819865A00DAD6B3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				169AEAE42819865A00DAD6B3 /* PBXTargetDependency */,
+			);
+			name = "AKFA TimetableUITests";
+			productName = "AKFA TimetableUITests";
+			productReference = 169AEAE22819865A00DAD6B3 /* AKFA TimetableUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		169AEABA2819865900DAD6B3 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1330;
+				LastUpgradeCheck = 1330;
+				TargetAttributes = {
+					169AEAC12819865900DAD6B3 = {
+						CreatedOnToolsVersion = 13.3;
+					};
+					169AEAD72819865A00DAD6B3 = {
+						CreatedOnToolsVersion = 13.3;
+						TestTargetID = 169AEAC12819865900DAD6B3;
+					};
+					169AEAE12819865A00DAD6B3 = {
+						CreatedOnToolsVersion = 13.3;
+						TestTargetID = 169AEAC12819865900DAD6B3;
+					};
+				};
+			};
+			buildConfigurationList = 169AEABD2819865900DAD6B3 /* Build configuration list for PBXProject "AKFA Timetable" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 169AEAB92819865900DAD6B3;
+			productRefGroup = 169AEAC32819865900DAD6B3 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				169AEAC12819865900DAD6B3 /* AKFA Timetable */,
+				169AEAD72819865A00DAD6B3 /* AKFA TimetableTests */,
+				169AEAE12819865A00DAD6B3 /* AKFA TimetableUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		169AEAC02819865900DAD6B3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				169AEAD22819865A00DAD6B3 /* LaunchScreen.storyboard in Resources */,
+				16163D3A283C00D300861A03 /* Assets.xcassets in Resources */,
+				169AEACD2819865900DAD6B3 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		169AEAD62819865A00DAD6B3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		169AEAE02819865A00DAD6B3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		169AEABE2819865900DAD6B3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				169F91E1282A936D00E813B0 /* AlarmViewController.swift in Sources */,
+				169F91DC28296F6100E813B0 /* ThirdTabViewController.swift in Sources */,
+				169AEACA2819865900DAD6B3 /* ViewController.swift in Sources */,
+				169F91DF282A936100E813B0 /* ReminderViewController.swift in Sources */,
+				169F91DA28296F5400E813B0 /* SecondTabViewController.swift in Sources */,
+				169AEAC62819865900DAD6B3 /* AppDelegate.swift in Sources */,
+				169F91E5282BFC9D00E813B0 /* StudentsInformation.swift in Sources */,
+				169F91E3282A937B00E813B0 /* CalendarViewController.swift in Sources */,
+				169AEAC82819865900DAD6B3 /* SceneDelegate.swift in Sources */,
+				169F91D82829580A00E813B0 /* FirstTabViewController.swift in Sources */,
+				16163D3628361C5B00861A03 /* DailyViewChanger.swift in Sources */,
+				16163D382836447500861A03 /* SettingsViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		169AEAD42819865A00DAD6B3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				169AEADD2819865A00DAD6B3 /* AKFA_TimetableTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		169AEADE2819865A00DAD6B3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				169AEAE72819865A00DAD6B3 /* AKFA_TimetableUITests.swift in Sources */,
+				169AEAE92819865A00DAD6B3 /* AKFA_TimetableUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		169AEADA2819865A00DAD6B3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 169AEAC12819865900DAD6B3 /* AKFA Timetable */;
+			targetProxy = 169AEAD92819865A00DAD6B3 /* PBXContainerItemProxy */;
+		};
+		169AEAE42819865A00DAD6B3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 169AEAC12819865900DAD6B3 /* AKFA Timetable */;
+			targetProxy = 169AEAE32819865A00DAD6B3 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		169AEACB2819865900DAD6B3 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				169AEACC2819865900DAD6B3 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		169AEAD02819865A00DAD6B3 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				169AEAD12819865A00DAD6B3 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		169AEAEA2819865A00DAD6B3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		169AEAEB2819865A00DAD6B3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		169AEAED2819865A00DAD6B3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 2XPYKGNA89;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "AKFA Timetable/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "my.AKFA-Timetable";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		169AEAEE2819865A00DAD6B3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 2XPYKGNA89;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "AKFA Timetable/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "my.AKFA-Timetable";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		169AEAF02819865A00DAD6B3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 2XPYKGNA89;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "my.AKFA-TimetableTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AKFA Timetable.app/AKFA Timetable";
+			};
+			name = Debug;
+		};
+		169AEAF12819865A00DAD6B3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 2XPYKGNA89;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "my.AKFA-TimetableTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AKFA Timetable.app/AKFA Timetable";
+			};
+			name = Release;
+		};
+		169AEAF32819865A00DAD6B3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 2XPYKGNA89;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "my.AKFA-TimetableUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "AKFA Timetable";
+			};
+			name = Debug;
+		};
+		169AEAF42819865A00DAD6B3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 2XPYKGNA89;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "my.AKFA-TimetableUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "AKFA Timetable";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		169AEABD2819865900DAD6B3 /* Build configuration list for PBXProject "AKFA Timetable" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				169AEAEA2819865A00DAD6B3 /* Debug */,
+				169AEAEB2819865A00DAD6B3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		169AEAEC2819865A00DAD6B3 /* Build configuration list for PBXNativeTarget "AKFA Timetable" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				169AEAED2819865A00DAD6B3 /* Debug */,
+				169AEAEE2819865A00DAD6B3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		169AEAEF2819865A00DAD6B3 /* Build configuration list for PBXNativeTarget "AKFA TimetableTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				169AEAF02819865A00DAD6B3 /* Debug */,
+				169AEAF12819865A00DAD6B3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		169AEAF22819865A00DAD6B3 /* Build configuration list for PBXNativeTarget "AKFA TimetableUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				169AEAF32819865A00DAD6B3 /* Debug */,
+				169AEAF42819865A00DAD6B3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 169AEABA2819865900DAD6B3 /* Project object */;
+}
