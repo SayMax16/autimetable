@@ -167,6 +167,13 @@
                                     <constraint firstItem="Uc7-PK-oml" firstAttribute="centerX" secondItem="bs3-mO-crI" secondAttribute="centerX" id="dn1-Zb-gI3"/>
                                 </constraints>
                             </view>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="assasa" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="flj-7y-OOg">
+                                <rect key="frame" x="56" y="217" width="238" height="136"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="26"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="1v7-jD-QY1"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
@@ -178,6 +185,7 @@
                     </view>
                     <tabBarItem key="tabBarItem" title="Today" image="chart.bar.doc.horizontal" catalog="system" selectedImage="chart.bar.doc.horizontal" id="jvh-sb-LCy"/>
                     <connections>
+                        <outlet property="test" destination="flj-7y-OOg" id="uSM-hA-QGH"/>
                         <outlet property="weekDays" destination="Uc7-PK-oml" id="Uxq-Q7-hAn"/>
                     </connections>
                 </viewController>
@@ -228,13 +236,6 @@
                                     <constraint firstAttribute="height" constant="100" id="pH4-f2-P75"/>
                                 </constraints>
                             </view>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="1yy-vW-onH">
-                                <rect key="frame" x="145" y="337" width="246" height="116"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <nil key="textColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="zQ2-B7-VXg"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
