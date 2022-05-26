@@ -9,4 +9,6 @@ import Foundation
 
 struct SheetModel{
     let name:String
+    let id: String
+
 }

@@ -27,16 +27,12 @@ struct SheetManager{
             let task = session.dataTask(with: url) { (data, response, error) in
                 if error != nil {
                     self.delegate?.didFailWithError(error: error!)
-                    return
+                     return
                 }
                  
                 if let safeData = data {
-                    
-                    var dataString = String(data: safeData, encoding: .utf8)
-                    dataString = dataString?.replacingOccurrences(of: "[", with: "")
-                    dataString = dataString?.replacingOccurrences(of: "]", with: "")
-                    let dictData = Data(dataString!.utf8)
-                    if let sheet = self.parseJSON( dictData){
+                    print(safeData)
+                    if let sheet = self.parseJSON(safeData){
                         self.delegate?.didUpdateSheet(self, sheet: sheet)
                     }
                     
@@ -49,14 +45,16 @@ struct SheetManager{
     func parseJSON(_ sheet: Data ) -> SheetModel?{
         let decoder = JSONDecoder()
         do {
-            let decodedData = try decoder.decode(SheetData.self, from: sheet)
-             let name = decodedData.Full_name
-            let sheet = SheetModel(name: name)
+            let decodedData = try decoder.decode([SheetData].self, from: sheet)
+            let name = decodedData[0].Full_name
+            let id = decodedData[0].Student_ID
+            decodedData.forEach { course in print(course)  }
+            let sheet = SheetModel(name: name, id: id)
             return sheet
             
             
         } catch {
-            print(error)
+            self.delegate?.didFailWithError(error: error)
             return nil
         }
     }

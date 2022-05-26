@@ -7,7 +7,11 @@
 
 import UIKit
 
-class FirstTabViewController: UIViewController {
+class FirstTabViewController: UIViewController, SheetManagerDelegate{
+    func didFailWithError(error: Error) {
+        
+    }
+    
 
     @IBOutlet weak var test: UILabel!
     @IBOutlet weak var weekDays: UILabel!
@@ -17,7 +21,7 @@ class FirstTabViewController: UIViewController {
      
     override func viewDidLoad() {
         super.viewDidLoad()
-//        sheetManager.delegate = self
+        sheetManager.delegate = self
        
         
         dailyChange.changeDay(weekDays);
@@ -26,8 +30,9 @@ class FirstTabViewController: UIViewController {
     }
     
     func didUpdateSheet(_ sheetManager: SheetManager, sheet: SheetModel){
-        DispatchQueue.main.sync {
-             test.text = sheet.name
+        print(sheet.name)
+        DispatchQueue.main.async {
+            self.test.text = sheet.name
 
         }
     }
