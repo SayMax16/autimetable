@@ -10,6 +10,9 @@
 		16163D3628361C5B00861A03 /* DailyViewChanger.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16163D3528361C5B00861A03 /* DailyViewChanger.swift */; };
 		16163D382836447500861A03 /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16163D372836447500861A03 /* SettingsViewController.swift */; };
 		16163D3A283C00D300861A03 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 16163D39283C00D300861A03 /* Assets.xcassets */; };
+		16163D3C283EC0EB00861A03 /* SheetManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16163D3B283EC0EB00861A03 /* SheetManager.swift */; };
+		16163D3E283EC60800861A03 /* SheetData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16163D3D283EC60800861A03 /* SheetData.swift */; };
+		16163D40283EDA3100861A03 /* SheetModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16163D3F283EDA3100861A03 /* SheetModel.swift */; };
 		169AEAC62819865900DAD6B3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 169AEAC52819865900DAD6B3 /* AppDelegate.swift */; };
 		169AEAC82819865900DAD6B3 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 169AEAC72819865900DAD6B3 /* SceneDelegate.swift */; };
 		169AEACA2819865900DAD6B3 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 169AEAC92819865900DAD6B3 /* ViewController.swift */; };
@@ -52,6 +55,9 @@
 		16163D3528361C5B00861A03 /* DailyViewChanger.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DailyViewChanger.swift; sourceTree = "<group>"; };
 		16163D372836447500861A03 /* SettingsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
 		16163D39283C00D300861A03 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		16163D3B283EC0EB00861A03 /* SheetManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SheetManager.swift; sourceTree = "<group>"; };
+		16163D3D283EC60800861A03 /* SheetData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SheetData.swift; sourceTree = "<group>"; };
+		16163D3F283EDA3100861A03 /* SheetModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SheetModel.swift; sourceTree = "<group>"; };
 		169AEAC22819865900DAD6B3 /* AKFA Timetable.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "AKFA Timetable.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		169AEAC52819865900DAD6B3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		169AEAC72819865900DAD6B3 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -127,6 +133,9 @@
 			children = (
 				169F91E4282BFC9D00E813B0 /* StudentsInformation.swift */,
 				16163D3528361C5B00861A03 /* DailyViewChanger.swift */,
+				16163D3B283EC0EB00861A03 /* SheetManager.swift */,
+				16163D3D283EC60800861A03 /* SheetData.swift */,
+				16163D3F283EDA3100861A03 /* SheetModel.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -336,8 +345,11 @@
 				169F91DC28296F6100E813B0 /* ThirdTabViewController.swift in Sources */,
 				169AEACA2819865900DAD6B3 /* ViewController.swift in Sources */,
 				169F91DF282A936100E813B0 /* ReminderViewController.swift in Sources */,
+				16163D3C283EC0EB00861A03 /* SheetManager.swift in Sources */,
 				169F91DA28296F5400E813B0 /* SecondTabViewController.swift in Sources */,
 				169AEAC62819865900DAD6B3 /* AppDelegate.swift in Sources */,
+				16163D40283EDA3100861A03 /* SheetModel.swift in Sources */,
+				16163D3E283EC60800861A03 /* SheetData.swift in Sources */,
 				169F91E5282BFC9D00E813B0 /* StudentsInformation.swift in Sources */,
 				169F91E3282A937B00E813B0 /* CalendarViewController.swift in Sources */,
 				169AEAC82819865900DAD6B3 /* SceneDelegate.swift in Sources */,
@@ -450,7 +462,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -504,7 +516,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
