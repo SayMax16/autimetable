@@ -44,7 +44,7 @@ class FirstTabViewController: UIViewController, UITableViewDelegate, UITableView
              return 10
         }
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
-        var cell: UITableViewCell?
+        var cell: UITableViewCell
         if (indexPath.row >= 3) && (indexPath.row <= 6) {
            cell = daily_timetable.dequeueReusableCell(withIdentifier: itCS1_TableViewCell.identifier, for: indexPath)
         }
@@ -53,8 +53,8 @@ class FirstTabViewController: UIViewController, UITableViewDelegate, UITableView
         }
         
      
-     return cell!
-   
+     return cell
+        
     }
     
   //  func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
