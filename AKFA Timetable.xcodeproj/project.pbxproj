@@ -25,6 +25,10 @@
 		169F91E1282A936D00E813B0 /* AlarmViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 169F91E0282A936D00E813B0 /* AlarmViewController.swift */; };
 		169F91E3282A937B00E813B0 /* CalendarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 169F91E2282A937B00E813B0 /* CalendarViewController.swift */; };
 		169F91E5282BFC9D00E813B0 /* StudentsInformation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 169F91E4282BFC9D00E813B0 /* StudentsInformation.swift */; };
+		7B8A149F283EE8AE005DBA1D /* itCS1_TableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B8A149D283EE8AE005DBA1D /* itCS1_TableViewCell.swift */; };
+		7B8A14A0283EE8AE005DBA1D /* itCS1_TableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7B8A149E283EE8AE005DBA1D /* itCS1_TableViewCell.xib */; };
+		7B8A14A3283EE90A005DBA1D /* CP2_TableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B8A14A1283EE90A005DBA1D /* CP2_TableViewCell.swift */; };
+		7B8A14A4283EE90A005DBA1D /* CP2_TableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7B8A14A2283EE90A005DBA1D /* CP2_TableViewCell.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -67,6 +71,10 @@
 		169F91E0282A936D00E813B0 /* AlarmViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlarmViewController.swift; sourceTree = "<group>"; };
 		169F91E2282A937B00E813B0 /* CalendarViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalendarViewController.swift; sourceTree = "<group>"; };
 		169F91E4282BFC9D00E813B0 /* StudentsInformation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StudentsInformation.swift; sourceTree = "<group>"; };
+		7B8A149D283EE8AE005DBA1D /* itCS1_TableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = itCS1_TableViewCell.swift; sourceTree = "<group>"; };
+		7B8A149E283EE8AE005DBA1D /* itCS1_TableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = itCS1_TableViewCell.xib; sourceTree = "<group>"; };
+		7B8A14A1283EE90A005DBA1D /* CP2_TableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CP2_TableViewCell.swift; sourceTree = "<group>"; };
+		7B8A14A2283EE90A005DBA1D /* CP2_TableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CP2_TableViewCell.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -155,6 +163,10 @@
 				169AEAD02819865A00DAD6B3 /* LaunchScreen.storyboard */,
 				16163D39283C00D300861A03 /* Assets.xcassets */,
 				169AEAD32819865A00DAD6B3 /* Info.plist */,
+				7B8A149D283EE8AE005DBA1D /* itCS1_TableViewCell.swift */,
+				7B8A149E283EE8AE005DBA1D /* itCS1_TableViewCell.xib */,
+				7B8A14A1283EE90A005DBA1D /* CP2_TableViewCell.swift */,
+				7B8A14A2283EE90A005DBA1D /* CP2_TableViewCell.xib */,
 			);
 			path = "AKFA Timetable";
 			sourceTree = "<group>";
@@ -290,8 +302,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7B8A14A4283EE90A005DBA1D /* CP2_TableViewCell.xib in Resources */,
 				169AEAD22819865A00DAD6B3 /* LaunchScreen.storyboard in Resources */,
 				16163D3A283C00D300861A03 /* Assets.xcassets in Resources */,
+				7B8A14A0283EE8AE005DBA1D /* itCS1_TableViewCell.xib in Resources */,
 				169AEACD2819865900DAD6B3 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -318,6 +332,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				169F91E1282A936D00E813B0 /* AlarmViewController.swift in Sources */,
+				7B8A149F283EE8AE005DBA1D /* itCS1_TableViewCell.swift in Sources */,
 				169F91DC28296F6100E813B0 /* ThirdTabViewController.swift in Sources */,
 				169AEACA2819865900DAD6B3 /* ViewController.swift in Sources */,
 				169F91DF282A936100E813B0 /* ReminderViewController.swift in Sources */,
@@ -329,6 +344,7 @@
 				169F91D82829580A00E813B0 /* FirstTabViewController.swift in Sources */,
 				16163D3628361C5B00861A03 /* DailyViewChanger.swift in Sources */,
 				16163D382836447500861A03 /* SettingsViewController.swift in Sources */,
+				7B8A14A3283EE90A005DBA1D /* CP2_TableViewCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -513,6 +529,7 @@
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -541,6 +558,7 @@
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
