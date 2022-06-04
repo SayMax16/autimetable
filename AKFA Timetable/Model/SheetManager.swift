@@ -46,10 +46,12 @@ struct SheetManager{
         let decoder = JSONDecoder()
         do {
             let decodedData = try decoder.decode([SheetData].self, from: sheet)
-            let name = decodedData[0].Full_name
-            let id = decodedData[0].Student_ID
+            let i = 0
+            let name = decodedData[i].Full_name
+            let id = decodedData[i].Student_ID
+            let group_id = decodedData[i].Group_ID
             decodedData.forEach { course in print(course)  }
-            let sheet = SheetModel(name: name, id: id)
+            let sheet = SheetModel(name: name, id: id, group_id: group_id)
             return sheet
             
             

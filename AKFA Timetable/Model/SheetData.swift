@@ -9,4 +9,5 @@ import Foundation
 struct SheetData: Codable {
     let Full_name: String
     let Student_ID: String
+    let Group_ID: String
 }

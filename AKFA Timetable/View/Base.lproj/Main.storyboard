@@ -169,7 +169,7 @@
                                     <constraint firstItem="Uc7-PK-oml" firstAttribute="centerX" secondItem="bs3-mO-crI" secondAttribute="centerX" id="dn1-Zb-gI3"/>
                                 </constraints>
                             </view>
-                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="25" estimatedRowHeight="-1" sectionHeaderHeight="-1" estimatedSectionHeaderHeight="-1" sectionFooterHeight="-1" estimatedSectionFooterHeight="-1" translatesAutoresizingMaskIntoConstraints="NO" id="f5D-Zx-n8t">
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="32" estimatedRowHeight="-1" sectionHeaderHeight="-1" estimatedSectionHeaderHeight="-1" sectionFooterHeight="-1" estimatedSectionFooterHeight="-1" translatesAutoresizingMaskIntoConstraints="NO" id="f5D-Zx-n8t">
                                 <rect key="frame" x="111" y="100" width="303" height="743"/>
                                 <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                             </tableView>
@@ -987,7 +987,10 @@
                     </view>
                     <navigationItem key="navigationItem" id="Z71-X5-gUZ"/>
                     <connections>
+                        <outlet property="groupID" destination="s0h-ou-WFM" id="4OW-Km-ydh"/>
                         <outlet property="profileImageView" destination="4BA-VX-gGo" id="ebt-8q-Qv8"/>
+                        <outlet property="profileName" destination="f8N-OA-jCQ" id="cbc-SG-0wn"/>
+                        <outlet property="studentID" destination="ixH-lg-BDM" id="upb-Tm-OBx"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="yg3-mB-uKd" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
@@ -1000,7 +1003,7 @@
                 <pageViewController autoresizesArchivedViewToFullSize="NO" transitionStyle="scroll" navigationOrientation="horizontal" spineLocation="none" id="UQA-D0-Z3Q" sceneMemberID="viewController"/>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="oBa-EL-wAL" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1552" y="155"/>
+            <point key="canvasLocation" x="1248" y="139"/>
         </scene>
     </scenes>
     <resources>

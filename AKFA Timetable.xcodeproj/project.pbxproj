@@ -32,6 +32,8 @@
 		7B8A14A0283EE8AE005DBA1D /* itCS1_TableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7B8A149E283EE8AE005DBA1D /* itCS1_TableViewCell.xib */; };
 		7B8A14A3283EE90A005DBA1D /* CP2_TableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B8A14A1283EE90A005DBA1D /* CP2_TableViewCell.swift */; };
 		7B8A14A4283EE90A005DBA1D /* CP2_TableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7B8A14A2283EE90A005DBA1D /* CP2_TableViewCell.xib */; };
+		7B8A14A7283F5DEF005DBA1D /* none_TableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B8A14A5283F5DEF005DBA1D /* none_TableViewCell.swift */; };
+		7B8A14A8283F5DEF005DBA1D /* none_TableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7B8A14A6283F5DEF005DBA1D /* none_TableViewCell.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -81,6 +83,8 @@
 		7B8A149E283EE8AE005DBA1D /* itCS1_TableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = itCS1_TableViewCell.xib; sourceTree = "<group>"; };
 		7B8A14A1283EE90A005DBA1D /* CP2_TableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CP2_TableViewCell.swift; sourceTree = "<group>"; };
 		7B8A14A2283EE90A005DBA1D /* CP2_TableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CP2_TableViewCell.xib; sourceTree = "<group>"; };
+		7B8A14A5283F5DEF005DBA1D /* none_TableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = none_TableViewCell.swift; sourceTree = "<group>"; };
+		7B8A14A6283F5DEF005DBA1D /* none_TableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = none_TableViewCell.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -176,6 +180,8 @@
 				7B8A149E283EE8AE005DBA1D /* itCS1_TableViewCell.xib */,
 				7B8A14A1283EE90A005DBA1D /* CP2_TableViewCell.swift */,
 				7B8A14A2283EE90A005DBA1D /* CP2_TableViewCell.xib */,
+				7B8A14A5283F5DEF005DBA1D /* none_TableViewCell.swift */,
+				7B8A14A6283F5DEF005DBA1D /* none_TableViewCell.xib */,
 			);
 			path = "AKFA Timetable";
 			sourceTree = "<group>";
@@ -314,6 +320,7 @@
 				7B8A14A4283EE90A005DBA1D /* CP2_TableViewCell.xib in Resources */,
 				169AEAD22819865A00DAD6B3 /* LaunchScreen.storyboard in Resources */,
 				16163D3A283C00D300861A03 /* Assets.xcassets in Resources */,
+				7B8A14A8283F5DEF005DBA1D /* none_TableViewCell.xib in Resources */,
 				7B8A14A0283EE8AE005DBA1D /* itCS1_TableViewCell.xib in Resources */,
 				169AEACD2819865900DAD6B3 /* Main.storyboard in Resources */,
 			);
@@ -349,6 +356,7 @@
 				169F91DA28296F5400E813B0 /* SecondTabViewController.swift in Sources */,
 				169AEAC62819865900DAD6B3 /* AppDelegate.swift in Sources */,
 				16163D40283EDA3100861A03 /* SheetModel.swift in Sources */,
+				7B8A14A7283F5DEF005DBA1D /* none_TableViewCell.swift in Sources */,
 				16163D3E283EC60800861A03 /* SheetData.swift in Sources */,
 				169F91E5282BFC9D00E813B0 /* StudentsInformation.swift in Sources */,
 				169F91E3282A937B00E813B0 /* CalendarViewController.swift in Sources */,
